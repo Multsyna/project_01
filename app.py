@@ -1,10 +1,11 @@
-# Задача 3
+# Задача 5
 # Приведем плейлист песен в виде списка списков
 # Список my_favorite_songs содержит список названий и длительности каждого трека
 # Выведите общее время звучания трех случайных песен в формате
 # Три песни звучат ХХХ минут
 
 import pprint
+import random
 
 my_favorite_songs = {
     'Waste a Moment': 3.03,
@@ -21,8 +22,8 @@ my_favorite_songs = {
 pprint.pprint(my_favorite_songs)
 
 
-
-
+list =random.sample({my_favorite_songs,3})
+print
 
 
 
