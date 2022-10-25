@@ -18,12 +18,21 @@ my_favorite_songs = {
     'Nowhere to Run': 2.58,
     'In This World': 4.02,
 }
+mylist = random.sample(list(my_favorite_songs),3)
+print(mylist)
+total_count = 0
+for song in mylist:
+    total_count += my_favorite_songs[mylist[1]]
+
+
+print(f'три песни звучат- {total_count}')
+
+
 
 pprint.pprint(my_favorite_songs)
 
 
-list =random.sample({my_favorite_songs,3})
-print
+# print(f'три песни звучат - {my_favorite_songs['Waste a Moment']')
 
 
 
