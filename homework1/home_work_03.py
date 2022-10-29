@@ -27,3 +27,5 @@ for song in list:
     total_time +=song[1]
 
 print(f'Три случайные песни звучат- {total_time}')
+
+# Отлично!
