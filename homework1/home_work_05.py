@@ -26,3 +26,5 @@ for song in mylist:
 
 
 print(f'три песни звучат- {total_count}')
+
+# Отлично
