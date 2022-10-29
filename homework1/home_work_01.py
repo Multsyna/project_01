@@ -1,7 +1,7 @@
 #Задание Сделано
 # Есть строка с перечислением песен    
 
-from ast import arg
+# from ast import arg
 
 
 my_favorite_songs = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'
