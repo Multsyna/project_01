@@ -1,39 +1,21 @@
-# Задача 5
-# Приведем плейлист песен в виде списка списков
-# Список my_favorite_songs содержит список названий и длительности каждого трека
-# Выведите общее время звучания трех случайных песен в формате
-# Три песни звучат ХХХ минут
-
-import pprint
 import random
 
-my_favorite_songs = {
-    'Waste a Moment': 3.03,
-    'New Salvation': 4.02,
-    'Staying\' Alive': 3.40,
-    'Out of Touch': 3.03,
-    'A Sorta Fairytale': 5.28,
-    'Easy': 4.15,
-    'Beautiful Day': 4.04,
-    'Nowhere to Run': 2.58,
-    'In This World': 4.02,
-}
-mylist = random.sample(list(my_favorite_songs),3)
-print(mylist)
-total_count = 0
-for song in mylist:
-    total_count += my_favorite_songs[mylist[1]]
+my_kub = [1, 2, 3, 4, 5, 6]
 
+x = random.sample(my_kub,4)
+print(x)
+print(sum(x))
+#####################################
 
-print(f'три песни звучат- {total_count}')
+import random
+arr = int(input('ВВедите длину парля: '))
 
+x = ('+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890')
+password = random.sample(x,arr)
+print(f'ваш пароль : {password}')
 
-
-pprint.pprint(my_favorite_songs)
-
-
-# print(f'три песни звучат - {my_favorite_songs['Waste a Moment']')
-
+if arr != int(arr):
+    print('error')
 
 
 
