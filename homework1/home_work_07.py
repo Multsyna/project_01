@@ -38,7 +38,7 @@ for name_goods in titles:
     total_quantiti = 0
     
 
-        
+# Отлично!!!!!
 
 
 
