@@ -29,5 +29,17 @@ else:
 
     print('Необходимо занять денег на год: ', round(inp,2))
 
+# Вот решение чуть покороче
+# Решение 2
+salary, expenses = 10000, 12000
+
+i = expenses - salary
+m = 0
+debt = 0
+while m < 12:
+    mx = i * (1.03 ** m)
+    debt += mx
+    m += 1
+print(f'Необходимо взять в долг {round(debt, 2)} рублей')
 
 
