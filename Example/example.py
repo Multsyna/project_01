@@ -7,7 +7,16 @@ from pprint import pprint
 pprint(dir(__builtins__))
 
 #============================================================================================
+# задачка на рандомный пароль
+import random
+arr = int(input('ВВедите длину парля: '))
 
+x = ('+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890')
+password = random.sample(x,arr)
+print(f'ваш пароль : {password}')
+
+if arr != int(arr):
+    print('error')
 # random для генерации случайных значений
 import random
 
@@ -162,7 +171,7 @@ change_font(paths)
 
 # Фреймворк flask ля создания веб-сайтов
 # conda install flask
-from flask import Flask
+from Flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
@@ -269,4 +278,5 @@ print(
     'Имена ячейка b1:', b1.__dict__,
     sep='\n'
     )
+
 
